@@ -37,7 +37,7 @@ class AdminMenu
                                 <tr>
                                     <th scope="row"><label for="googleTagManagerID">Google Tag Manager ID</label></th>
                                     <td>
-                                        <input name="googleTagManagerID" type="text" id="googleTagManagerID" value="<?php echo sanitize_text_field($option->googleTagManagerID); ?>" class="regular-text code">
+                                        <input placeholder="GTM-WBG12345" name="googleTagManagerID" type="text" id="googleTagManagerID" value="<?php echo sanitize_text_field($option->googleTagManagerID); ?>" class="regular-text code">
                                     </td>
                                 </tr>
 
