@@ -9,7 +9,7 @@ use EcoTracker\Lib\Service\InitService;
 
 /*
 Plugin Name: EcoTracker
-Plugin URI: https://github.com/trungro12/
+Plugin URI: https://github.com/trungro12/eco-tracker
 Description: Plugin tracks specific events and pushes data to the dataLayer for use with Google Tag Manager (GTM)
 Version: 1.0.0
 Requires at least: 5.8
