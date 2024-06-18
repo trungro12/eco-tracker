@@ -1,5 +1,7 @@
-# eco-tracker
-Plugin tracks specific events and pushes data to the dataLayer for use with Google Tag Manager (GTM)
+
+
+# eco-tracker - A Wordpress Plugin
+Wordpress Plugin tracks specific events and pushes data to the dataLayer for use with Google Tag Manager (GTM)
 
 # Install
 
