@@ -21,6 +21,10 @@ Go to EcoTracker Options (http://localhost/wp-admin/admin.php?page=ecotracker-ad
 * Insert your **Google Tag Manager ID** to enable Tracking
 * You can enable or disable any tracking event at **Event for Tracking**.
 
+* `purchase` : Fire when customer place order
+* `add_to_cart` : Fire when customer Add To Cart Product
+* `product_configuration_changed` : Fire when Admin Update Product
+
 
 All Event will stored like this
 
