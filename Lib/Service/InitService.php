@@ -8,7 +8,8 @@ class InitService
     private static $isInit = false;
     private static $isAdminInit = false;
     private static $arrServiceClass = [
-        OptionService::class
+        OptionService::class,
+        EventService::class
     ];
 
     public static function init()
@@ -18,7 +19,7 @@ class InitService
         if (self::$isInit) return;
         self::$isInit = true;
 
-        // check WooCommerce exists, if not will return
+        // check WooCommerce exists
         if (!self::isWooCommerceActive()) return;
 
         self::initAll("init");
