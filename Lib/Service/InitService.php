@@ -22,6 +22,8 @@ class InitService
         // check WooCommerce exists
         if (!self::isWooCommerceActive()) return;
 
+        if (empty(OptionService::create()->googleTagManagerID)) return;
+
         self::initAll("init");
     }
 
