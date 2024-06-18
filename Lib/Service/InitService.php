@@ -37,7 +37,7 @@ class InitService
             add_action("admin_notices", function () {
 ?>
                 <div class="notice notice-error is-dismissible">
-                    <p><?php _e(ECOTRACKER_NAME . ': WooCommerce is not installed or activated. Please install and activate WooCommerce.', 'check-woocommerce'); ?></p>
+                    <p><?php _e(ECOTRACKER_NAME . ': WooCommerce is not installed or activated. Please install and activate WooCommerce.'); ?></p>
                 </div>
 <?php
             });
