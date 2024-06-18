@@ -28,6 +28,6 @@ Go to EcoTracker Options (http://localhost/wp-admin/admin.php?page=ecotracker-ad
 
 All Event will stored like this
 
-![Event](https://i.imgur.com/arsMW5z.png)
+![Event](https://i.imgur.com/VvKHymz.png)
 
 *Enjoy! :)*
