@@ -16,7 +16,7 @@ Wordpress Plugin tracks specific events and pushes data to the dataLayer for use
 
 ## Website Options
 
-Go to EcoTracker Options (http://localhost/wp-admin/admin.php?page=ecotracker-admin)
+Go to EcoTracker Options (yourwebsite.com/wp-admin/admin.php?page=ecotracker-admin)
 
 * Insert your **Google Tag Manager ID** to enable Tracking
 * You can enable or disable any tracking event at **Event for Tracking**.
